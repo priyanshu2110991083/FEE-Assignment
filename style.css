@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+::placeholder{  
+    /*to align placeholer at center */
+    text-align: center;
+    padding-top: 10px;
+}
+.button{
+    height: 50px;
+    width: 460px;
+    margin-top: 30px;
+
+}
+.save,.clear,.get,.edit{
+    height: 100%;
+    width: 24.35%;
+}
+.newText{
+    margin-top: 30px;
+    width: 460px;
+    height: 50px;
+}
+.display{
+    display: none;
+}
